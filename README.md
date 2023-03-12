@@ -1,7 +1,5 @@
 # Body Mass Index Calculator
 
-===================================
-
 This project is one of my solutions for the "Flutter Specialist Bootcamp", provided
 by [Digital Innovation One](https://www.dio.me) - An Information Technology teaching platform.
 
@@ -18,9 +16,7 @@ Technologies used:
 
 Screenshots:
 ------------
-<img src="lib/media/bmi_app_0.jpg" width="270" /> 
-<img src="lib/media/bmi_app_1.jpg" width="270" /> 
-<img src="lib/media/bmi_app_2.jpg" width="270" />
+<img src="lib/media/bmi_app_0.jpg" width="270" /> <img src="lib/media/bmi_app_1.jpg" width="270" /> <img src="lib/media/bmi_app_2.jpg" width="270" />
 
 -------------
 
