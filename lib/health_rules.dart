@@ -1,29 +1,43 @@
+import 'package:flutter/material.dart';
 import 'package:imc_app/person.dart';
 
 String validateHealthRulesFor(Person person) {
   String result = "";
 
   // Basic Formula
-  var imcResult = person.getWeight() / (person.getHeight() * 2);
+  var bmiResult = person.getWeight() / (person.getHeight() * 2);
 
-  if (imcResult <= 18.5) {
-    // Below normal
-    result = "IMC: Below Normal";
-  } else if (imcResult > 18.5 && imcResult <= 24.9) {
-    // Normal or Adequate
-    result = "IMC: Normal or Adequate";
-  } else if (imcResult > 24.9 && imcResult <= 29.9) {
-    // Overweight
-    result = "IMC: Overweight";
-  } else if (imcResult > 29.9 && imcResult <= 34.9) {
-    // Overweight: Level I
-    result = "IMC: Overweight: Level I";
-  } else if (imcResult > 34.9 && imcResult <= 39.9) {
-    // Overweight: Level II
-    result = "IMC: Overweight: Level II";
+  if (bmiResult <= 18.5) {
+    var bmiInfo = "BMI: Below Normal";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
+  } else if (bmiResult > 18.5 && bmiResult <= 24.9) {
+    var bmiInfo = "BMI: Normal or Adequate";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
+  } else if (bmiResult > 24.9 && bmiResult <= 29.9) {
+    var bmiInfo = "BMI: Overweight";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
+  } else if (bmiResult > 29.9 && bmiResult <= 34.9) {
+    var bmiInfo = "BMI: Overweight: Level I";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
+  } else if (bmiResult > 34.9 && bmiResult <= 39.9) {
+    var bmiInfo = "BMI: Overweight: Level II";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
   } else {
-    // Overweight: Level III
-    result = "IMC: Overweight: Level III";
+    var bmiInfo = "BMI: Overweight: Level III";
+    debugPrint(bmiInfo);
+    result = bmiInfo;
+    // -------- //
   }
+  debugPrint("BMI Value: $bmiResult");
   return result;
 }
