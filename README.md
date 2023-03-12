@@ -1,16 +1,44 @@
-# imc_app
+# Body Mass Index Calculator
 
-A new Flutter project.
+===================================
 
-## Getting Started
+This project is one of my solutions for the "Flutter Specialist Bootcamp", provided
+by [Digital Innovation One](https://www.dio.me) - An Information Technology teaching platform.
 
-This project is a starting point for a Flutter application.
+App Overview
+-------------
 
-A few resources to get you started if this is your first Flutter project:
+The project uses an individual's personal info to calculate his Body Mass Index. The app implements User inputs, Unit Tests and Exception Handling.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Technologies used:
+---------------
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter 
+- [Test](https://pub.dev/packages/test)
+
+Screenshots:
+------------
+<img src="lib/media/bmi_app_0.jpg" width="270" /> 
+<img src="lib/media/bmi_app_1.jpg" width="270" /> 
+<img src="lib/media/bmi_app_2.jpg" width="270" />
+
+-------------
+
+License
+-------
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
+

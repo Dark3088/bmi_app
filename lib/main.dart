@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
-      home: const MyHomePage(title: 'Body Mass Index'),
+      home: const MyHomePage(title: 'Body Mass Index Calculator'),
     );
   }
 }
